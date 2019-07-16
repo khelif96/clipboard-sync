@@ -1,0 +1,31 @@
+{
+  "name": "desktop-client",
+  "version": "1.0.0",
+  "description": "Desktop client to sync clipboard state across devices",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo bash && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khelif96/clipboard-sync.git"
+  },
+  "author": "Mohamed Khelif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khelif96/clipboard-sync/issues"
+  },
+  "homepage": "https://github.com/khelif96/clipboard-sync#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "clear": "^0.1.0",
+    "clipboardy": "^2.1.0",
+    "dotenv": "^8.0.0",
+    "inquirer": "^6.5.0",
+    "mongodb-stitch-server-sdk": "^4.5.0",
+    "node-notifier": "^5.4.0"
+  }
+}
