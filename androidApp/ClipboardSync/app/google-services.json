@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1059142387839",
+    "firebase_url": "https://clipboardsync-14c4c.firebaseio.com",
+    "project_id": "clipboardsync-14c4c",
+    "storage_bucket": "clipboardsync-14c4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059142387839:android:b579ceadbf0bc488",
+        "android_client_info": {
+          "package_name": "com.mkhelif.clipboardsync"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059142387839-c77o3h89c8ddfhnb88673bguejvq05a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyp7CpkKXx1kJ1n20OLA5z97kKxRaRpEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059142387839-c77o3h89c8ddfhnb88673bguejvq05a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
