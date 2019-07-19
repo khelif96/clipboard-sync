@@ -40,7 +40,7 @@ module.exports = {
           return true;
         })
         .catch(err => {
-          console.log("Error signing in ", err);
+          console.log("Error signing in ", err.message);
           return false;
         })
     );

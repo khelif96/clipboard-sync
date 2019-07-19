@@ -8,6 +8,7 @@ module.exports = {
     stitchClient = client;
     setInterval(function() {
       compareClip();
+      getCurrentClip();
     }, 1000);
   }
 };
@@ -24,4 +25,19 @@ const compareClip = () => {
       });
     });
   }
+};
+
+const getCurrentClip = () => {
+  const currentClip = clipboardy.readSync();
+  stitchClient.callFunction("getCurrentClip", []).then(result => {
+    if (currentClip !== result.clipData) {
+      clipboardy.writeSync(result.clipData);
+      previousClip = result.clipData;
+      notifier.notify({
+        title: "Clipboard Sync",
+        message: "Retrieved new Item added to clipboard"
+      });
+    }
+    // console.log(result.clipd);
+  });
 };
