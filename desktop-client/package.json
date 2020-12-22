@@ -28,6 +28,6 @@
     "figlet": "^1.2.3",
     "inquirer": "^6.5.0",
     "mongodb-stitch-server-sdk": "^4.5.0",
-    "node-notifier": "^5.4.0"
+    "node-notifier": "^8.0.1"
   }
 }
